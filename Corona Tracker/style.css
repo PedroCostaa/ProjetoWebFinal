@@ -1,0 +1,55 @@
+body {
+    background: rgb(255, 255, 255);
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+  .svg-wrapper {
+    text-align: center;
+    padding: 3%;
+  }
+
+
+  .text {
+    font-family: 'David Libre';
+    font-size: 30px;
+    letter-spacing: 8px;
+    color: rgb(12, 12, 12);
+    font-variant: small-caps;
+    border-bottom:solid rgb(12, 12, 12);
+    margin-bottom: 70px;
+}
+
+p{
+    font-family: 'David Libre';
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 4px;
+    color: rgb(12, 12, 12);
+    font-variant: small-caps;
+}
+button{
+    background-color: rgba(255, 255, 255, 0.603)
+}
+
+button:hover > p{
+    background-color: rgb(12, 12, 12);
+    color: rgb(255, 255, 255);
+}
+button:hover{
+    background-color: rgb(12, 12, 12);
+    color: rgb(255, 255, 255);
+    border: solid rgb(212, 209, 209);
+}
+
+.container{
+    text-align: justify;
+    font-family: 'David Libre';
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    color: rgb(12, 12, 12);
+    border-bottom: solid rgb(12, 12, 12);
+}
+
+li{
+    list-style-type: none;
+}
